@@ -1,0 +1,94 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+header{
+    justify-content: left;
+}
+.seclogo{
+    width: 80px; 
+    margin-left: 20px;
+    margin-right: 45px; padding-right: 0;
+}
+
+
+.logo{
+    width: inherit; height: inherit;
+}
+body{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+p{
+    color: white;
+}
+main{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.general{
+    display: block;
+}
+.general .play{
+    width: 160px;
+    height: 40px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 2%;
+    margin-left: 80px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+.general .trailer{
+    width: 130px;
+    height: 40px;
+    background-color: rgba(0, 0, 0);
+    border-radius: 2%;
+
+    margin-left: 20px;
+    border: 3px solid white;
+    color: white;
+    cursor: pointer;
+}
+.banner img{
+    width: 25%;
+    height: 10%;
+    margin-left: 6%;
+    margin-top: 15%;
+    margin-bottom: 10px;
+}
+.icon{
+
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
+}
+nav{
+    display: flex;
+}
+.navlinks{
+    display: inline-flex;
+}
+.link{
+    margin: 20px;
+    display: inline-flex;
+    color: #f9fafa;
+    cursor:pointer;
+    text-decoration: none;
+
+    float:left;
+}
+
+p{
+    margin-left: 6%;
+    margin-top: 1%;
+    max-width: 45%;
+}
